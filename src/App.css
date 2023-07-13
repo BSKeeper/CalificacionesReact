@@ -1,0 +1,39 @@
+/*iniciales*/
+
+@font-face {
+    font-family: 'dyphusio';
+    src: url("./fonts/dyphusio.ttf");
+}
+
+/*Reservadas*/
+h1{
+    font-family: dyphusio;
+    font-size: 5em;
+    color: var(--Color5);
+    -webkit-text-stroke: 1px var(--Color1);
+
+}
+
+
+
+/*Estilos*/
+
+
+.MainContainer{
+    background-color: var(--Color4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LikesButton{
+    padding: 3px;
+    margin-bottom: 20px;
+    background-color: var(--Color2);
+    border-radius: 10%;
+}
+
+.LikesButton:hover{
+    cursor: pointer;
+    background-color: var(--Color5);
+}
